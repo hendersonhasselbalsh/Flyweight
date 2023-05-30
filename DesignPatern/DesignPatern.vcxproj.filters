@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Flyweight">
+      <UniqueIdentifier>{aef3fd20-007e-4602-828a-54883659a35a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Flyweight.h">
+      <Filter>Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyweightFactory.h">
+      <Filter>Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="Minions.h">
+      <Filter>Flyweight</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
